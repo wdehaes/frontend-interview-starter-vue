@@ -1,47 +1,19 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
+  <main class="flex min-h-screen flex-col items-center justify-center">
+    <div class="container flex flex-col items-center justify-center gap-12 px-4 py-16">
+      <h1 class="text-5xl font-extrabold tracking-tight">Frontend Interview Starter</h1>
+      <span>
+        You can modify this code at
+        <code
+          class="bg-slate-800 hover:bg-slate-900 select-none text-white rounded-sm border-slate-900 border p-1"
+          >/src/app/App.vue</code
+        >.
+      </span>
+      <HelloWorld msg="hello world" />
     </div>
-  </header>
-
-  <main>
-    <TheWelcome />
   </main>
 </template>
-
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>

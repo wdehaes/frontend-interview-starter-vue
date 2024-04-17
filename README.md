@@ -1,6 +1,6 @@
-# frontend-interview-starter-vue
+# Frontend Interview Starter
 
-This template should help get you started developing with Vue 3 in Vite.
+Our frontend interviews all start with this template. From here, we'll ask you to build something that will slowly resemble a product feature, such as a todo app, an employee directory, etc.
 
 ## Recommended IDE Setup
 
